@@ -1,7 +1,4 @@
-#include <stddef.h>
-#include <stdio.h>
 #include <string.h>
-#include <stdint.h>
 
 #include "hal_uart.h"
 #include "hal.h"
