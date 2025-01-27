@@ -14,7 +14,8 @@ extern "C" {
     // NOTE: More can be added to this interface to support DMA streaming or asynchronous transfers
     hal_error_E (*initChannel)(void);
     hal_error_E (*sendByte)(uint8_t data);
-    hal_error_E (*receiveByte)(volatile uint8_t *data);
+    hal_error_E (*receiveByte)(uint8_t *data);
+
   } hal_uart_channelConfig_S;
 
   typedef struct {
